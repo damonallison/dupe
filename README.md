@@ -1,3 +1,3 @@
 # dupe
 
-A simple command tond duplicate files.
+A simple command to find duplicate files.
