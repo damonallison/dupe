@@ -1,16 +1,13 @@
-[tool.poetry]
+[project]
+
 name = "dupe"
-version = "0.0.2"
-description = "Find duplicate files"
-authors = ["Damon Allison <damon@damonallison.com>"]
+version = "0.1.0"
+description = "Finds duplicate files"
+readme = "README.md"
+requires-python = ">=3.13"
+authors = [{ name = "Damon Allison", email = "damon@damonallison.com" }]
+dependencies = []
 
-[tool.poetry.dependencies]
-python = "^3.9"
 
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
-black = "^20.8b1"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = ["black>=25.1.0", "pytest>=8.4.0"]

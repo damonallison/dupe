@@ -1,8 +1,9 @@
 import logging
 import os
 from pathlib import Path
-from typing import Dict, List
+
 from dupe import dupe
+
 
 #
 # What is the difference between os.path and pathlib.Path?
